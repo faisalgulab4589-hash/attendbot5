@@ -20,7 +20,8 @@ jobs:
         with:
           flutter-version: '3.19.0'
           channel: 'stable'
-
+      - run: flutter clean
+      - run: flutter pub upgrade
       - run: flutter pub get
       - run: flutter build apk --release
 
