@@ -31,7 +31,6 @@ android {
 
     lintOptions {
         disable 'InvalidPackage'
-        // Fix for v1 embedding deprecation
         checkReleaseBuilds false
     }
 
